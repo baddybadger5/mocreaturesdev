@@ -1,0 +1,49 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="GNU GENERAL PUBLIC LICENSE Version 3"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/mocreaturesdev" #optional
+
+[[mods]] #mandatory
+
+modId="mocreatures" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Mo' Creatures" #mandatory
+
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-creatures-reborn" #optional
+
+logoFile="logo.png" #optional
+
+credits="drzhark" #optional
+
+authors="RedRoseWarrior1 aka DevMaster1015 aka Katara" #optional
+
+description='''
+Mo' Creatures is a mod created by DrZhark. It was created on November 17, 2010. A mod which adds over 40 new mobs to your game, it provides many new animal and monster mobs, as well as the ability to tame and ride some.
+'''
+
+[[dependencies.mocreatures]] #optional
+    
+    modId="forge" #mandatory
+   
+    mandatory=true #mandatory
+   
+    versionRange="[35,)" #mandatory
+    
+    ordering="NONE"
+  
+    side="BOTH"
+
+[[dependencies.mocreatures]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
