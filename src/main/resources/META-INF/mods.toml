@@ -1,7 +1,7 @@
 
 modLoader="javafml" #mandatory
 
-loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
 license="GNU GENERAL PUBLIC LICENSE Version 3"
 
@@ -34,7 +34,7 @@ Mo' Creatures is a mod created by DrZhark. It was created on November 17, 2010. 
    
     mandatory=true #mandatory
    
-    versionRange="[35,)" #mandatory
+    versionRange="[36,)" #mandatory
     
     ordering="NONE"
   
@@ -44,6 +44,6 @@ Mo' Creatures is a mod created by DrZhark. It was created on November 17, 2010. 
     modId="minecraft"
     mandatory=true
 
-    versionRange="[1.16.4]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
