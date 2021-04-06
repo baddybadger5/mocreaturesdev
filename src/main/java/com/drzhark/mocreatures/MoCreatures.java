@@ -2,6 +2,8 @@ package com.drzhark.mocreatures;
 
 
 import com.drzhark.mocreatures.util.RegistryHandler;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -40,7 +42,7 @@ public class MoCreatures {
 
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
-
+        RenderTypeLookup.setRenderLayer(RegistryHandler.WYVERN_TALLGRASS.get(), RenderType.getCutout());
 
     }
 }

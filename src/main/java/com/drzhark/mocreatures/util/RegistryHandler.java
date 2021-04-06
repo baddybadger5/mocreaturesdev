@@ -3,6 +3,8 @@ package com.drzhark.mocreatures.util;
 
 
 import com.drzhark.mocreatures.MoCreatures;
+import com.drzhark.mocreatures.blocks.BlockItemBase;
+import com.drzhark.mocreatures.blocks.WyvernTallGrass;
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -25,9 +27,12 @@ public class RegistryHandler {
 
 
     //Blocks
+    public static final RegistryObject<Block> WYVERN_TALLGRASS = BLOCKS.register("wyvern_tallgrass", WyvernTallGrass::new);
+    public static final RegistryObject<Block> WYVERN_TALLGRASS = BLOCKS.register("wyvern_tallgrass", WyvernTallGrass::new);
 
 
     //Block Items
+    public static final RegistryObject<Item> WYVERN_TALLGRASS_ITEM = ITEMS.register("wyvern_tallgrass", () -> new BlockItemBase(WYVERN_TALLGRASS.get()));
 
 
 }
