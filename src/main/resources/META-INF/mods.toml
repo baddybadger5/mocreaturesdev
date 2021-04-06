@@ -13,7 +13,7 @@ modId="mocreatures" #mandatory
 
 version="${file.jarVersion}" #mandatory
 
-displayName="Mo' Creatures" #mandatory
+displayName="DrZhark's Mo'Creatures" #mandatory
 
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-creatures-reborn" #optional
